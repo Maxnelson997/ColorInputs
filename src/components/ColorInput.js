@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Col } from 'reactstrap';
 
 class ColorInput extends Component {
 
@@ -18,13 +19,11 @@ class ColorInput extends Component {
 
     render() {
         return (
-            <div className="color-input">
+            <Col md="4" className="color-input">
                 <input placeholder={this.state.color} value={this.state.color} style={{backgroundColor: this.state.color}} type="text" onChange={this.handleIt()} />
-            </div>
+            </Col>
         )
     }
-
-
 
 }
 
