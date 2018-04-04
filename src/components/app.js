@@ -8,7 +8,8 @@ export default class App extends Component {
 
       <div className="card-wrapper">
         <Card className="card-wrapper__card">
-          <h2>Type in color names and the background will change when a valid color is entered</h2>
+          <h2>ColorInputs</h2>
+          <p>Type in color names and the background will change when a valid color is entered -  <a href="https://www.w3schools.com/cssref/css_colors.asp" target="_blank">This Link To CSS Colors</a> contains a bunch of CSS colors you can try. Just click the link, get a few color names, and type them in the inputs below</p>
           <Row>
             <ColorInput color='red'/>
             <ColorInput color='white'/>
@@ -26,10 +27,14 @@ export default class App extends Component {
           </Row>
           <Row>
             <ColorInput color='chartreuse'/>
-            <ColorInput color='cornflowerblue'/>
+            <ColorInput color='chartreuse'/>
+            <ColorInput color='cadetblue'/>
+            <ColorInput color='springgreen'/>
+            <ColorInput color='violet'/>
           </Row>
         </Card>
       </div>
+
 
     );
   }

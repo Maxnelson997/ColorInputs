@@ -1,6 +1,11 @@
 
 body {
-    font-family: Noto Sans;
+    font-family: montserrat;
+    background-color: ghostwhite;
+}
+
+h2 {
+    font-family: montserrat;
 }
 
 .color-input {
@@ -40,7 +45,6 @@ body {
         flex-direction: column;
         justify-content: space-around;
 
-        background-color: ghostwhite;
         box-shadow: 0 2px 3px 0 rgba(100,100,100,0.21);
     }
 
